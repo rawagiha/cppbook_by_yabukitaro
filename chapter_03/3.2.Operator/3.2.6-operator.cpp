@@ -19,4 +19,8 @@ int main() {
     z = int(3); 
     cout << 1 / z << endl;
 
+    int zz = 2;
+    zz = int('1');
+    cout << zz << endl; // 49
+
 }
