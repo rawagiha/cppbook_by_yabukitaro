@@ -1,2 +1,2 @@
-## Study record: C++ book by Taro Yabuki (ISBN-10 : 4822298930) 
+## My study journal: C++ book by Taro Yabuki 矢吹太朗 (ISBN-10 : 4822298930) 
 
