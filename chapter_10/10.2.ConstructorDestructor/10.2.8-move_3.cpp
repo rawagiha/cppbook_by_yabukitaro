@@ -42,9 +42,24 @@ Person f() {
     return yoshio;
 }
 
+
+int g() {
+    Person yoshio;
+    *yoshio.name = "Yoshio";
+    yoshio.age = 5;
+    yoshio.v.push_back(9);
+    yoshio.v.push_back(7);
+    yoshio.v.push_back(5);
+    
+    return 3;
+}
+
 int main() {
 
-    Person a(f());
-    std::cout << *a.name << ": " << a.v.size() << std::endl; 
+    //Person a(f());
+    Person a;
+    a = f();
+    //std::cout << *a.name << ": " << a.v.size() << std::endl;
+    g(); 
 } 
 
