@@ -2,19 +2,24 @@
 #define MM_DD_YYYY_H
 
 class Date {
-    int __month;
-    int __day;
-    int __year;
+    int month;
+    int day;
+    int year;
+    
 
 public:
-    // def constructor
-    Date(int month, int day, int year);
+    int x;
     
-    void set_date(int month, int day, int year);
+    // def constructor
+    Date(int month, int day, int year, int a, int b);
+    
+    
+    void set_date(int new_month, int new_day, int new_year);
 
-    int get_month() {return __month;}
-    int get_day() {return __day;}
-    int get_year() {return __year;}
+    int get_month() {return month;}
+    int get_day() {return day;}
+    int get_year() {return year;}
+    
 };
 
 #endif 
